@@ -143,5 +143,9 @@ rules)
 
 ---
 
-This is a living note. I'll update `11th-circuit-investigation.md` (or add a
-7th-circuit file) as the user verifies items directly.
+**Status of this file:** Note that `ilnd.uscourts.gov` did not resolve
+from this machine during research (local DNS/connection issue). The
+verification findings on the Treasury side and the certified-reinsurer list
+below are solid. The N.D. Ill. local-rule findings (LR65.1/LCrR46.1) are
+from primary court documents already captured in this repo; if the page is
+re-checked and changes, the status here will be updated.
