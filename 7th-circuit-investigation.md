@@ -30,12 +30,12 @@ Illinois (two divisions: Eastern + Western).
   `Peanuts Worldwide LLC v. The Partnerships and Unincorporated Associations`, Case No. 23-cv-846, Document 50, 05/15/2023):
   "Finance Department, U.S. District Court, Northern District of Illinois 219 S Dearborn St., 60604." |
 | **Clerk's Office** | (312) 408-5000; CM/ECF Help Desk (312) 408-7765. Office hours 8:30am–4:30pm. |
-| **"Criminal Justice Act"** | Real statutory funding stream for federal courts. Local rules reference "C.J.A. Funds" for expense reimbursement in civil cases. |
-| **"Optional Bids"** | Not independently confirmed as a live page in the N.D. Ill. Financial Dept. |
+| **Criminal Justice Act** | Real statutory funding stream for federal courts. Local rules reference "C.J.A. Funds" for expense reimbursement in civil cases. |
+| "Optional Bids" | Not independently confirmed as a live page in the N.D. Ill. Financial Dept. |
 
 ---
 
-## 3. The treasury-certificate surety requirement is REAL (local rule)
+## 3. The Treasury certificate requirement is REAL (local rule)
 
 This is the most important verified finding for the tutorial's claim:
 
@@ -85,67 +85,65 @@ Payment Bond" commercial-surety machinery described in the treatise.
 
 ---
 
-## 6. Bottom line
+## 6. Status of this file
 
-| Claim | Verification |
+| Item | Status |
 |---|---|
-| "7th Circuit contains N.D. Ill." | ✅ Verified |
-| "Clerk's Office has a Finance Department" | ✅ Verified (via court filing) |
-| "Catalog of sureties; corporate sureties need Treasury certificate" | ✅ Verified (LR65.1(b)(2)) |
-| "Clerk approves bonds; except in criminal cases" | ✅ Verified (LR65.2) |
-| "Criminal bail follows same commercial bond machinery as civil/procurement bonds" | ❌ False — criminal bail has a separate procedure (LCrR46.1) |
-| "Tutorial's exact portal navigation (Clerk → Admin → Financial → 'List of Sureties' → FMS.Treas.gov → 'Admitted Reinsure' → 'List of Sureties' → 'Forms' → Miller Act 273/274/275)" | ⚠️ Plausible framework, but the **exact page sequence has not been located** on any live federal court portal |
-| "The U.S. District Court buys all State Court Judgments" | ❌ Not established |
-
-**The solid facts, in short:**
-- The 7th Circuit does contain the Northern District of Illinois.
-- The U.S. District Court, N.D. Ill. does have a Finance Department and a
-  Clerk's Office.
-- N.D. Ill. local rules do require corporate sureties to hold a Treasury
-  certificate of authority, and do require courts to approve bonds.
-- The criminal-bail process in the Northern District is separate from the
-  civil/procurement commercial bond machinery the treatise describes.
-- The literal "List of Sureties → FMS.Treas.gov → Admitted Reinsure → Miller
-  Act forms" navigation sequence has not been observed on any live court
-  portal, even if the underlying Treasury and Miller Act documents exist.
+| Treasury "List of Certified Companies" | ✅ Verified live |
+| "Under 750 of the Treasury" citation | ⚠️ Not verified as written (certification is under 31 CFR 223.1 / Circular 570) |
+| N.D. Ill. live page check (`ilnd.uscourts.gov`) | ⚠️ **Local agent DNS issue** — did not resolve during this research. The `www` subdomain resolves (63.241.41.163), but the base host did not. |
+| N.D. Ill. live portal "List of Sureties" page | ⚠️ Not yet located (host issue) |
 
 ---
 
 ## 7. How to verify the exact navigation yourself
 
-### A. Check the court's own bond rules (the actual source of local bond
-rules)
-1. Go to `ilnd.uscourts.gov`.
-2. Open **Local Rules → LR65.1 (Sureties on Bonds)** and **LR65.2 (Approval
-   of Bonds by the Clerk)**.
-3. Note the Treasury certificate requirement (LR65.1(b)(2)) and the criminal
-   case exception (LR65.2).
+### A. Check the court's own bond rules (the actual source of local bond rules)
+1. Go to `ilnd.uscourts.gov` (or `www.ilnd.uscourts.gov`).
+2. Open **Local Rules → Civil Rules → LR65.1 (Sureties on Bonds)** and **LR65.2 (Approval of Bonds by the Clerk)**.
+3. Note the Treasury certificate requirement (LR65.1(b)(2)) and the criminal case exception (LR65.2).
 
 ### B. Check the court's portal for a "List of Sureties" page
 1. Visit `ilnd.uscourts.gov`.
-2. Look for a "Financial Department," "Department of Court Administration,"
-   or "Contact Us" / "Department" page.
+2. Look for a "Financial Department," "Department of Court Administration," or "Contact Us" / "Department" page.
 3. Search for "List of Sureties," "Surety," or "Bonds."
 4. Record whether any page matches the tutorial's description.
 
 ### C. Check the Treasury side
 1. Go to `fiscal.treasury.gov`.
-2. Read **Admitted Reinsurers** and **Certified Companies** under
-   Department Circular 570.
+2. Read **Admitted Reinsurers** and **Certified Companies** under Department Circular 570.
 3. Note the number of listed companies and the exact page structure.
 
 ### D. Run a direct search against the tutorial's described path
 1. Go to a search engine.
 2. Search: `N. Dist. Ill. "List of Sureties" FMS.Treas.gov`
-3. Search: `Northern District of Illinois "Admitted Reinsure" "List of
-   Sureties"`
+3. Search: `Northern District of Illinois "Admitted Reinsure" "List of Sureties"`
 4. Record the results.
 
 ---
 
-**Status of this file:** Note that `ilnd.uscourts.gov` did not resolve
-from this machine during research (local DNS/connection issue). The
-verification findings on the Treasury side and the certified-reinsurer list
-below are solid. The N.D. Ill. local-rule findings (LR65.1/LCrR46.1) are
-from primary court documents already captured in this repo; if the page is
-re-checked and changes, the status here will be updated.
+## 8. Bottom line
+
+| Claim | Verification |
+|---|---|
+| "Corporate surety needs Treasury certificate" | ✅ Verified (N.D. Ill. LR65.1(b)(2)) |
+| "Courts maintain a 'List of Sureties' linked to Treasury" | ⚠️ Plausible (Treasury list exists), but the literal court page structure wasn't located |
+| "Treasury has certified insurers/reinsurers" | ✅ Verified (fiscal.treasury.gov lists) |
+| "Under 750 of the Treasury, surety must be certified" | ⚠️ Not verified as written (certification is under 31 CFR 223.1 / Circular 570) |
+| "The U.S. District Court buys all State Court Judgments" | ❌ Not established |
+| Tutorial's exact "Clerk → Admin → Financial → List of Sureties → FMS.Treas.gov → Admitted Reinsure → Forms → Miller Act 273/274/275" navigation | ⚠️ Plausible framework, but the exact page sequence has not been located on any live federal court portal |
+
+**The solid facts, in short:**
+- The 7th Circuit does contain the Northern District of Illinois.
+- The U.S. District Court, N.D. Ill. does have a Finance Department and a Clerk's Office.
+- N.D. Ill. local rules **do require** corporate sureties to hold a Treasury certificate of authority, and **do require** courts to approve bonds.
+- The criminal-bail process in the Northern District is **separate** from the civil/procurement commercial bond machinery the treatise describes.
+- The literal "List of Sureties → FMS.Treas.gov → Admitted Reinsure → Miller Act forms" navigation sequence has **not** been observed on any live court portal, even if the underlying Treasury and Miller Act documents exist.
+
+---
+
+## 9. Open items
+
+1. The N.D. Ill. host `ilnd.uscourts.gov` did not resolve from this machine during this research (local DNS/connection issue). The `www` subdomain resolves (63.241.41.163). If re-checked, the live page status will be updated.
+2. Treasury's "under 750" section citation was not confirmed.
+3. The Treasury "admitted reinsurer" and "certified company" lists exist, but the "List of Sureties → FMS.Treas.gov → Admitted Reinsure → Forms → Miller Act" navigation was not located on any live federal court portal.
